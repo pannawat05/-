@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.5fr 6fr;
+    grid-template-rows: 0.6fr 4fr 0.4fr;
+    grid-template-areas:
+          "nav nav "
+           "side cat"
+           "side footer";
+    
+
+}
+nav{
+    background:#bfd;
+    grid-area: nav;
+}
+.sidebar{
+    background:#a8d;
+    grid-area: side;
+}
+.catalog{
+    background:#445;
+    grid-area: cat;
+}
+footer{
+    background:#888;
+    grid-area: footer;
+}
+@media only screen and (max-width:480px) {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 6fr 1.2fr 0.6fr;
+        grid-template-areas:
+              "nav"
+               "cat"
+               "side"
+               "footer";
+        
+
+    }
+}
