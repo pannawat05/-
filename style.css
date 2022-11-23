@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1.5fr 6fr;
-    grid-template-rows: 0.6fr 4fr 0.4fr;
+    grid-template-rows: 0.4fr 4fr 0.4fr;
     grid-template-areas:
           "nav nav "
            "side cat"
@@ -11,8 +11,22 @@
 
 }
 nav{
-    background:#bfd;
+    background:rgb(89, 89, 89);
     grid-area: nav;
+    overflow: hidden;
+}
+a{
+    color: #fff;
+    text-decoration:none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    padding: 14px 16px;
+    font-size: 17px;
+
+}
+a:hover{
+    background: rgba(238, 237, 237, 0.915);
 }
 .sidebar{
     background:#a8d;
@@ -38,4 +52,43 @@ footer{
         
 
     }
+}
+.dropdown .dropbtn{
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+} 
+.dropdown{
+    float:right;
+}
+.dropdown .dropbtn:hover, .dropdown .dropdown-content:hover{
+    background: rgba(238, 237, 237, 0.915);
+} 
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color:rgb(238, 237, 237) ;
+    width: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0.2) ;
+    z-index: 2;
+
+}
+.dropdown-content a{
+    float: none;
+    color:#000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background:#ddd ;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
 }
