@@ -16,19 +16,21 @@
     <a href="#">Product</a>
     <a href="#">Contact</a>
     <div class="dropdown">
-        <button class="dropbtn">
+        <a class="dropbtn" onclick="document.getElementById('content').style.display='block';">
         <i class="fa-solid fa-square-caret-down"></i>Dropdown
-        </button>
-    <div class="dropdown-contentent">
-        <a href="#">link1</a>
-        <a href="#">link2</a>
-        <a href="#">link3</a>
+        </a>
+  <div class="dropdown-content" id="content">
+  <a href="#">link1</a>
+  <a href="#">link2</a>
+  <a href="#">link3</a>
     </div>
-    </div>
+</div>
+    
     </nav>
     <div class="sidebar">sidebar</div>
     <div class="catalog">catalog</div>
     <footer>Created by...</footer>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
