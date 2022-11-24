@@ -13,8 +13,13 @@
 nav{
     background:rgb(89, 89, 89);
     grid-area: nav;
-    overflow: hidden;
+    
 }
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
 a{
     color: #fff;
     text-decoration:none;
