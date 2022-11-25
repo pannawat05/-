@@ -83,7 +83,7 @@ footer{
     background: rgba(186, 186, 186, 0.915);
     
 } 
-nav .dropbtn:hover #content{
+ nav .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
 
