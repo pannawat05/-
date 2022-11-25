@@ -79,11 +79,11 @@ footer{
     text-decoration: none;
     display: block;
 }
-.dropdown .dropbtn:hover, .dropdown .dropdown-content:hover{
+.dropdown .dropbtn:hover, .dropdown .dropdown-content a:hover{
     background: rgba(186, 186, 186, 0.915);
     
 } 
-.dropdown .dropbtn:hover .dropdown-content{
+#content:hover .dropdown-content{
     display: block;
 }
 

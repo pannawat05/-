@@ -16,7 +16,7 @@
     <a href="#">Product</a>
     <a href="#">Contact</a>
     <div class="dropdown">
-        <a class="dropbtn" onclick="document.getElementById('content').style.display='block';">
+        <a class="dropbtn">
         <i class="fa-solid fa-square-caret-down"></i>Dropdown
         </a>
   <div class="dropdown-content" id="content">
