@@ -1,3 +1,6 @@
+*{
+font-family: 'Prompt', sans-serif;
+}
 .container{
     display: grid;
     height: 100vh;
@@ -15,7 +18,7 @@ nav{
     grid-area: nav;
     overflow: hidden;
 }
-nav .dropdown, a{
+#link{
     color: #fff;
     text-decoration:none;
     display: inline-block;
@@ -27,7 +30,13 @@ nav .dropdown, a{
     font-size: 17px;
 
 }
-a:hover{
+.navcontent #logo{
+font-size: 34px;
+display: inline-block;
+text-decoration: none;
+color: #fff;
+}
+#link:hover{
     background: rgba(238, 237, 237, 0.915);
 }
 .sidebar{
@@ -54,6 +63,17 @@ footer{
         
 
     }
+    .nav-mobile div{
+  display: block;
+    }
+  nav{
+
+height: 50%;
+  }
+  nav #link{
+display: none;
+
+  }
 }
 .dropdown .dropbtn{
     font-size: 17px;
