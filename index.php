@@ -15,10 +15,11 @@
     <nav>
       <!-- toggle icon-->
       <div class="nav-mobile">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
+     <div id="line1"></div>
+     <div id="line2"></div>
+     <div id="line3"></div>
+     </div>
+
     <div class="navcontent">
         <!-- logo-->
 <a id="logo" href="#!">My Catalog!</a>

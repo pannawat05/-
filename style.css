@@ -35,6 +35,8 @@ font-size: 34px;
 display: inline-block;
 text-decoration: none;
 color: #fff;
+margin-left: 10px;
+margin-top: 5px;
 }
 #link:hover{
     background: rgba(238, 237, 237, 0.915);
@@ -63,8 +65,9 @@ footer{
         
 
     }
-    .nav-mobile div{
+     nav .nav-mobile{
   display: block;
+  visibility: visible;
     }
   nav #link{
 display: none;
@@ -102,5 +105,20 @@ display: none;
  nav .dropdown:hover .dropdown-content {
     display: block;
 
+  }
+   #line1,#line2,#line3{
+width: 35px;
+height: 5px;
+background-color:white ;
+margin: 6px 0;
+display: block;
+
+  }
+  .nav-mobile{
+ display: block;
+ visibility: hidden;
+ float: right;
+ margin-top: 5px;
+ margin-right: 15px;
   }
 
