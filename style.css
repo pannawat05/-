@@ -66,10 +66,6 @@ footer{
     .nav-mobile div{
   display: block;
     }
-  nav{
-
-height: 50%;
-  }
   nav #link{
 display: none;
 
