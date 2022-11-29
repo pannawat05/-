@@ -14,6 +14,11 @@
 <div class="container">
     <nav>
       <!-- toggle icon-->
+      <div class="nav-mobile">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     <div class="navcontent">
         <!-- logo-->
 <a id="logo" href="#!">My Catalog!</a>
