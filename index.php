@@ -14,7 +14,7 @@
 <div class="container">
     <nav>
       <!-- toggle icon-->
-      <div class="nav-mobile">
+      <div class="nav-mobile" onclick="toggle()">
      <div id="line1"></div>
      <div id="line2"></div>
      <div id="line3"></div>
