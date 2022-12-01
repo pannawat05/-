@@ -1,6 +1,6 @@
 
 function toggle(){
-	const toggle = document.getElementByClassName('container')
+	const toggle = document.getElementByClassName('.container')
 
 	if(toggle.className == "container"){
 		toggle.className +="-mobile"
