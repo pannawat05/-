@@ -65,7 +65,7 @@ footer{
         
 
     }
-      .mobile{
+      contaoner mobile{
         grid-template-columns: 1fr;
         grid-template-rows: 3fr 6fr 1.2fr 0.6fr;
         grid-template-areas:
