@@ -14,7 +14,7 @@
 <div class="container">
     <nav>
       <!-- toggle icon-->
-      <a class="nav-mobile" href="javascipt:void(0)" onclick="toggle()">
+      <a class="nav-mobile" href="javascript:void(0)" onclick="toggle()">
      <div id="line1"></div>
      <div id="line2"></div>
      <div id="line3"></div>
