@@ -3,9 +3,9 @@ function toggle(){
 	const toggle = document.getElementByClassName('.container')
 
 	if(toggle.className == "container"){
-		toggle.className ="container-mobile"
+		toggle.classlist.add('mobile')
 	}else{
-		toggle.className = "container"
+		toggle.classlist.remove('mobile')
 	}
 
 
