@@ -6,6 +6,8 @@ font-family: 'Prompt', sans-serif;
     height: 100vh;
     grid-template-columns: 1.5fr 6fr;
     grid-template-rows: 0.4fr 4fr 0.4fr;
+    grid-auto-flow: column;
+    place-items: center;
     grid-template-areas:
           "nav nav "
            "side cat"
@@ -62,18 +64,7 @@ footer{
                "cat"
                "side"
                "footer";
-        
-
-    }
-      .container .mobile{
-        grid-template-columns: 1fr;
-        grid-template-rows: 3fr 6fr 1.2fr 0.6fr;
-        grid-template-areas:
-              "nav"
-               "cat"
-               "side"
-               "footer";
-        
+        display: initial;
 
     }
      nav .nav-mobile{
