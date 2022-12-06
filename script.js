@@ -1,14 +1,6 @@
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-function toggle(){
-	const toggle = document.getElementByClassName('.container')
-
-	if(toggle.className == "container"){
-		toggle.classList.add('mobile')
-	}else{
-		toggle.classList.remove('mobile')
-	}
-
-
-}
-
-  
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
