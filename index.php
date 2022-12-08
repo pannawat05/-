@@ -7,6 +7,8 @@
       <title>Basic PHP</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta viewport>
     </head>
     <body>
       <nav class="navbar">
@@ -48,6 +50,9 @@
       </div>
       </div>
       <h1 style="font-size: 36px;font-weight: 800;text-align: center;">สินค้า</h1>
+      <center>
+      <?php include('index_show.php');?>
+      </center>
     </body>
 <script src="script.js"></script>
 </html>
