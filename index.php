@@ -39,20 +39,18 @@
 </div>
       </nav>
       <div class="content">
-      <img src="img/istockphoto-489181824-170667a.jpg" width="70%" height="150px" style="position: relative;float:right;">
+      <img src="img/istockphoto-489181824-170667a.jpg" width="70%" height="150px" style="float:right;" id="imgbaner">
       <div class="sidebar"width="20%">
     <ul>
-   <li><a href="#">สินค้าทั่วไป</a></li>
-  <li><a href="#">อาหารและเครื่องดื่ม</a></li>
-  <li><a href="#">เครื่องใช้ไฟฟ้า</a></li>
-  <li><a href="#">เครื่องมือสื่อสาร</a></li>
+   <li><a href="?type=สินค้าทั่วไป">สินค้าทั่วไป</a></li>
+  <li><a href="?type=อาหารและเครื่องดื่ม">อาหารและเครื่องดื่ม</a></li>
+  <li><a href="?type=เครื่องใช้ไฟฟ้า">เครื่องใช้ไฟฟ้า</a></li>
+  <li><a href="?type=เครื่องมือสื่อสาร">เครื่องมือสื่อสาร</a></li>
     </ul>
       </div>
       </div>
       <h1 style="font-size: 36px;font-weight: 800;text-align: center;">สินค้า</h1>
-      <center>
       <?php include('index_show.php');?>
-      </center>
     </body>
 <script src="script.js"></script>
 </html>
