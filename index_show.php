@@ -120,8 +120,7 @@ document.querySelector('.modal').style.display='block';
 
 
 function close(){
-   document.querySelector('.background').style.display='none';
-   document.querySelector('.modal').style.display='none';
+   id = 0;
 
 
 }
